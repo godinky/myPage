@@ -1,0 +1,97 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #111;
+}
+
+.frame{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 500px;
+}
+.frame img{
+  position: fixed;
+  width: 100px;
+  border-radius: 50%;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid;
+  color: rgba(34, 34, 34, 0.5);
+}
+.instaLink{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+  top: 80%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  background: rgb(165, 50, 165, 0.5);
+  border-radius: 25px;
+}
+.instaLink:hover{
+  color: #000;
+  transition: .3s;
+}
+.whatsappLink{
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+  position: absolute;
+  color: #fff;
+  text-decoration: none;
+  top: 80%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  background: rgb(165, 50, 165, 0.5);
+  border-radius: 25px;
+}
+.whatsappLink:hover{
+  color: #000;
+  transition: .3s;
+}
+.logo{
+  position: fixed;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 200%;
+}
+.logo > span {
+  color: rgb(165, 50, 165);
+}
+.texto{
+  position: fixed;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 90%;
+}
+.cube{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 400px;
+  border-radius: 25px;
+  background: rgba(34, 34, 34, 0.5);
+}
+
+#particles-js{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
